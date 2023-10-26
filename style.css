@@ -1,0 +1,493 @@
+#navimg {
+    height: 76px;
+    width: 275px;
+    margin-top: -10px;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul a {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.;
+}
+
+#home,
+#home1 {
+    color: rgb(2, 2, 2);
+    font-size: 18px;
+    font-weight: 510;
+    font-family: 'Mulish', sans-serif;
+    font-family: 'Mulish', sans-serif;
+}
+
+#home:hover {
+    color: #6D1D8E;
+}
+
+#home1 {
+    color: #6D1D8E;
+}
+
+#home1::after {
+    content: "";
+    position: absolute;
+    bottom: px;
+    height: 2px;
+    width: 100%;
+    left: 0;
+    color: #6D1D8E;
+    background-color: rgb(109, 0, 156);
+    transform: scaleX(1);
+}
+
+nav ul a {
+    display: inline-block;
+    position: relative;
+}
+
+nav ul a:after {
+    background: none repeat scroll 0 0 transparent;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: #6D1D8E;
+    color: #6D1D8E;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+
+nav ul a:hover:after {
+    width: 100%;
+    left: 0;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+.divcard {
+    display: flex;
+    height: 470px;
+    min-width: auto;
+    min-height: auto;
+}
+
+.divcard img {
+    margin-top: 20px;
+    margin-right: 10px;
+    height: 400px;
+    width: 600px;
+}
+
+.divcard h1 {
+    color: #6D1D8E;
+    margin-top: 80px;
+    margin-left: 80px;
+    font-size: 40px;
+    font-family: 'Kaisei HarunoUmi', serif;
+}
+
+.divcard h2 {
+    color: #6D1D8E;
+    margin-top: 10px;
+    margin-left: 80px;
+    font-size: 40px;
+    font-family: 'Kaisei HarunoUmi', serif;
+}
+
+.divcard h3 {
+    color: #6D1D8E;
+    margin-left: 80px;
+    font-size: 25px;
+    margin-top: 25px;
+    font-family: 'Mulish';
+    font-weight: 700px;
+}
+
+.divcard p {
+    margin-left: 80px;
+    font-size: 15px;
+    margin-top: 30px;
+    font-family: 'Open Sans';
+    line-height: 1.2;
+}
+
+.btn1 {
+    margin-top: 20px;
+    margin-left: 80px;
+    padding: 11px 28px;
+    border-radius: 100px;
+    background: #6D1D8E;
+    color: white;
+    border: 1px solid transparent;
+    font-family: 'Mulish', sans-serif;
+    font-size: 15px;
+}
+
+.btn1:hover {
+    background: #5b2174;
+}
+
+.content {
+    text-align: center;
+}
+
+.title {
+    color: #6D1D8E;
+    margin-top: 90px;
+    font-family: 'Kaisei HarunoUmi', serif;
+    font-size: 50px;
+}
+
+.para {
+    margin-top: 45px;
+    font-family: 'Mulish', sans-serif;
+    font-size: 15px;
+}
+
+.search_box {
+    height: 87.6px;
+    width: 1100px;
+    min-width: auto;
+    min-height: auto;
+    margin: 40px 0 40px 0;
+    padding: 0 130px 0 130px;
+    position: relative;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    box-sizing: border-box;
+}
+
+.container .input {
+    background-color: #ffffff;
+    background: 0% 0%;
+    color: #000000;
+    height: 67.6px;
+    width: 1236px;
+    border-bottom: 2px solid #c5c5c5;
+    border-top: #ffffff;
+    border-left: #ffffff;
+    border-right: #ffffff;
+    margin-left: 2px;
+    padding: 18px 20px 18px 20px;
+    min-height: auto;
+    min-width: auto;
+    display: block;
+    /* cursor: text; */
+    /* box-sizing: border-box; */
+    font-size: 20px;
+    line-height: 30px;
+    text-decoration: none solid rgb(0, 0, 0);
+    word-spacing: 0px;
+    outline: none;
+}
+
+.col-md-12 {
+    margin-top: 80px;
+}
+
+.search_box i {
+    margin-top: 40px;
+}
+
+.coursedetails {
+    /* height: 2511.6px;
+    width: 1211px; */
+    min-width: auto;
+    margin: 50px 0 50px 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    /* padding: 0 150px 0 17px; */
+    gap: 25px;
+    justify-content: space-between;
+}
+
+.courses {
+    background-color: #f8f5f5;
+    height: 800.2px;
+    width: 330px;
+    /* padding: 15px 20px 15px 20px; */
+    min-height: auto;
+    min-width: auto;
+    border-radius: 10px;
+    transition: .3s;
+}
+
+.courses:hover {
+    background-color: white;
+    box-shadow: 0 3px 10px rgb(153, 153, 153);
+}
+
+.courseimg {
+    background-color: #ececec;
+    height: 160px;
+    width: 180px;
+    margin: 35px 55px 35px 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    box-sizing: border-box;
+}
+
+.courseimg:hover {
+    color: white;
+    background-color: #9976a1;
+}
+
+.aboutcourses {
+    width: 290px;
+    height: 543.2px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+.courses h5 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    word-spacing: 0px;
+    text-decoration: none solid rgb(109, 29, 142);
+    color: #6d1d8e;
+    box-sizing: border-box;
+    display: block;
+    height: 24px;
+    width: 290px;
+    margin: 0 0 8px 0;
+}
+
+.courses p {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+    line-height: 19px;
+    word-spacing: 0px;
+    color: #515151;
+    display: block;
+    box-sizing: border-box;
+    height: 57px;
+    width: 290px;
+    margin: 50px 0 40px 0;
+}
+
+.aboutcourses div {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    word-spacing: 0px;
+    display: block;
+    box-sizing: border-box;
+}
+
+.aboutcourses span {
+    color: #6d1d8e;
+    font-size: 14px;
+    font-weight: 700;
+    box-sizing: border-box;
+}
+
+.aboutcourses .text-center {
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration: none solid rgb(33, 37, 41);
+    word-spacing: 0px;
+    height: 128.7px;
+    width: 290px;
+    display: block;
+    box-sizing: border-box;
+}
+
+.aboutcourses button {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 25.5px;
+    text-decoration: none solid rgb(225, 225, 225);
+    text-align: center;
+    word-spacing: 0px;
+    color: #6d1d8e;
+    border-radius: 50px;
+    border: 2px solid #6d1d8e;
+    cursor: pointer;
+    padding: 10px 40px;
+    margin: 40px 0;
+    box-sizing: border-box;
+}
+
+.aboutcourses button:hover {
+    color: white;
+    background-color: #6D1D8E;
+}
+
+.batch {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 22.5px;
+    word-spacing: 0px;
+    color: #6d1d8e;
+    height: 22.5px;
+    width: 290px;
+    display: block;
+    box-sizing: border-box;
+}
+
+.courses {
+    background-color: #f8f8f8;
+    height: 800.2px;
+    width: 330px;
+    padding: 15px 20px 15px 20px;
+    min-height: auto;
+    min-width: auto;
+    display: block;
+    border-radius: 10px;
+    transition: .3s;
+}
+
+.imgc img {
+    width: 100%;
+    margin-top: 90px;
+    z-index: -1;
+}
+
+.imgbanner img {
+    width: 100%;
+    max-width: 100%;
+    height: 550px;
+    z-index: -1;
+    margin-top: 30px;
+}
+
+.imgbanner {
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.imgbanner h1 {
+    color: white;
+    font-family: 'Kaisei HarunoUmi', serif;
+    font-size: 40px;
+}
+
+.imgbanner p {
+    margin-top: 30px;
+    color: #bb9867;
+}
+
+.imgbanner button {
+    padding: 11px 28px;
+    border-radius: 100px;
+    background: white;
+    color: #6D1D8E;
+    border: 1px solid transparent;
+    margin-top: 40px;
+    font-family: 'Mulish', sans-serif;
+    font-size: 18px;
+}
+
+.imgbanner button:hover {
+    color: white;
+    background-color: #6D1D8E;
+}
+
+.col-md-4 p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+.footer h6 {
+    color: #6D1D8E;
+    font-family: 'Mulish', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+footer #head {
+    color: #6D1D8E;
+    font-family: 'Mulish', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#contactus a {
+    color: #6d1d8e;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'Mulish', sans-serif;
+}
+
+#copyright {
+    background-color: #F9F9F9;
+}
+
+@media only screen and (max-width: 480px) {
+    #navbar ul {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        background: #ffffff;
+        width: 100%;
+        padding: 10px;
+        text-align: center;
+    }
+    #navimg {
+        width: 100%;
+    }
+    .divcard {
+        display: grid;
+    }
+    .divcard img {
+        display: none;
+    }
+    .divcard h1 {
+        font-size: medium;
+    }
+    .divcard h2 {
+        font-size: medium;
+    }
+    .divcard h3 {
+        font-size: small;
+    }
+    .divcard p {
+        font-size: 7px;
+    }
+    .navbar-brand img {
+        display: none;
+    }
+    .search {
+        display: none;
+    }
+}
